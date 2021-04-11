@@ -25,6 +25,9 @@ ps: if you want to extracted I3D feature, it is recommend that using denseflow (
 1. Using the ./dataset/write_data_label_txt_new.py 
 
  generate the index file for running feature_extract.py. 
+ 
+##
+Download the model.zip in (), and unpress it to the root.
 
 ## Feature extraction
 1. Using feature_extract.py to generate I3D or C3D features.
