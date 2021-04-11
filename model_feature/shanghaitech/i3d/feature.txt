@@ -1,0 +1,4 @@
+dataset:shanghaitech 
+snapshot:./model/i3d/i3d_model_weight/model_kinetics_rgb.pth 
+savedir:/home/tu-wan/windowswan/dataset/shanghaitech/features/i3d/rgb 
+========================================== 
