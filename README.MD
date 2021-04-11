@@ -1,8 +1,6 @@
 # Introduction
 This repository is for extracting C3D or I3D features from videos. 
 
-Please cite with the following BibTeX:
-
 ## Requirements
 * Python 3
 * CUDA
@@ -27,7 +25,7 @@ ps: if you want to extracted I3D feature, it is recommend that using denseflow (
  generate the index file for running feature_extract.py. 
  
 ##
-Download the model.zip in (), and unpress it to the root.
+Download the model.zip in (link: https://pan.baidu.com/s/1g4XGLqRoRJhQwIGtHif2jg password: dzqm), and unpress it to the root.
 
 ## Feature extraction
 1. Using feature_extract.py to generate I3D or C3D features.
