@@ -17,7 +17,7 @@ conda env create -f anomaly_feature.yaml
 ## Video preprocessing
 1. Using Videos_to_frames_multiprocessing.py to generate frames from videos.
 
-ps: if you want to extracted I3D feature, it is recommend that using denseflow (https://github.com/open-mmlab/denseflow) to generate RGB and Optical_flow images.
+ps: if you want to extract I3D feature, it is recommend that using denseflow (https://github.com/open-mmlab/denseflow) to generate RGB and Optical_flow images.
 
 ## Input list generation
 1. Using the ./dataset/write_data_label_txt_new.py 
