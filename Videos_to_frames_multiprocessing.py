@@ -1,6 +1,9 @@
 """
-The Videos_to_frames_multiprocessing.py is used to convert video to video frames by using multipocessing and cv2.
-The structures of video_datasets are shown below:
+Video to frame conversion with multiprocessing / 使用多处理的视频到帧转换
+This module converts videos to frames using multiprocessing and OpenCV for efficient processing.
+此模块使用多处理和OpenCV将视频转换为帧，以实现高效处理。
+
+Dataset structures / 数据集结构:
 Shanghaitech:
 |------------|videos:
 |------------------|Train:
@@ -9,7 +12,6 @@ Shanghaitech:
 |------------------------|: video3
 |------------------------|: video4 ...
 
-,
 UCF_Crime:
 |------------|videos:
 |------------------|Class1:
@@ -19,8 +21,7 @@ UCF_Crime:
 |------------------------|: video4 ...
 |------------------|Class2:
 
-The structures of Frame are shown below:
-
+Frame structures / 帧结构:
 Shanghaitech:
 |------------|frames:
 |------------------|Train:
@@ -29,7 +30,6 @@ Shanghaitech:
 |------------------------|: video3
 |------------------------|: video4 ...
 
-,
 UCF_Crime:
 |------------|frames:
 |------------------|Class1:
@@ -167,4 +167,3 @@ if __name__ == "__main__":
         with tqdm(total=max_) as pbar:
             for i, _ in tqdm(enumerate(p.imap_unordered(Video2frame, train_values))):
                 pbar.update()
-

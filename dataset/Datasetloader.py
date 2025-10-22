@@ -1,3 +1,9 @@
+"""
+Dataset loader for video feature extraction / 视频特征提取的数据集加载器
+This module provides dataset classes and utilities for loading video frames and features.
+此模块提供数据集类和工具，用于加载视频帧和特征。
+"""
+
 import sys
 sys.path.append("..")
 import numpy as np

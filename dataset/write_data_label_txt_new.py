@@ -1,4 +1,9 @@
 # coding:utf-8
+"""
+Data and label file writer for video datasets / 视频数据集的数据和标签文件写入器
+This module creates file lists and labels for video anomaly detection datasets.
+此模块为视频异常检测数据集创建文件列表和标签。
+"""
 
 import numpy as np
 import os
@@ -61,5 +66,3 @@ if __name__ == '__main__':
     main(original_video_dict=original_video_dict,
          dataset=dataset,
          dataset_mode=dataset_mode)
-
-
